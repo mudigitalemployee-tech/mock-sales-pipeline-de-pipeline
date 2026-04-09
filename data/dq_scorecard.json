@@ -1,0 +1,98 @@
+{
+  "dq_score_pct": 100.0,
+  "dq_status": "PASS",
+  "passed": 11,
+  "warnings": 0,
+  "failed": 0,
+  "total_checks": 11,
+  "checks": [
+    {
+      "category": "Completeness",
+      "column": "transaction_id",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "customer_id",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "product_name",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "category",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "amount",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "quantity",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "transaction_date",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "status",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "region",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Completeness",
+      "column": "amount_had_negative",
+      "check": "Null % \u2264 5.0%",
+      "value": 0.0,
+      "threshold": 5.0,
+      "status": "PASS"
+    },
+    {
+      "category": "Uniqueness",
+      "column": "_all_",
+      "check": "Duplicate % \u2264 1.0%",
+      "value": 0.0,
+      "threshold": 1.0,
+      "status": "PASS"
+    }
+  ]
+}
